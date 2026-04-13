@@ -1,0 +1,20 @@
+{
+    "nome": "LED",
+    "version": "1.0.0",
+    "description": "Biblioteca para controle nao bloqueante de LED com suporte para ligar, desligar, alternar, temporizacao e picadas",
+    "keywords": [
+        "led",
+        "arduino",
+        "esp32",
+        "non-blocking"
+    ],
+    "authors": [
+        {
+            "nome": "Guilherme Augusto Prince"
+        }
+    ],
+    "license": "MIT",
+    "framework": "arduino",
+    "platforms": "*",
+    "headers": "LED.h"
+}
