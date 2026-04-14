@@ -84,13 +84,27 @@ class Led
          */
         void piscar(float freq, uint16_t repeticoes);
 
-        void alternar();    //* ok
+        /**
+         * @brief Este método alterna o estado do LED, se ligado, desliga e vice-versa
+         */
+        void alternar(); 
 
-        void setEstado(bool estado);    //* ok
+        /**
+         * @brief Define o estado do LED, este método serve para encapsulamento do atributo estado
+         * 
+         * @param estado - Valor booleano para definir o nível lógico do pino do LED, recebe HIGH ou LOW
+         */
+        void setEstado(bool estado);
 
-        uint8_t getPino();  //* ok
+        /**
+         * @brief Este método identifica qual o pino em que o LED está conecteado
+         */
+        uint8_t getPino();
 
-        void update();  //* em progresso
+        /**
+         * @brief Atualiza as saídas do LED e deve ser usado UMA vez no loop
+         */
+        void update();
 };
 
 
